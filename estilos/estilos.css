@@ -1,0 +1,333 @@
+
+/* reseteado para manejarlo a mi manera */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+
+/* Main Styling */
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #4d4d4d;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+
+section{
+	padding-top: 5px;
+}
+
+/*extrita*/
+.contactoh2{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+h2 {
+	font-size: 2rem;
+	font-weight: 500;
+}
+h4 {
+	font-size: 1.5rem;
+}
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7em;
+	font-weight: 300;
+	
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	}
+
+
+	
+/* Utility Classes */
+.container {
+	
+	margin: auto;
+	max-width: 1300px;
+	overflow: auto;
+	padding: 0 20px;
+
+}
+
+
+.large {
+	font-size: 1.25rem;
+	
+}
+
+.txt-orange {
+	color: orangered;
+	
+}
+
+.display-1 {
+	font-size: 4rem;
+	
+}
+
+.btn {
+	display: inline-block;
+	font-size: 15px;
+	padding: 20px 23px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-radius: 4px;
+	
+}
+
+.btn-round {
+	border-radius: 20px;
+	
+}
+
+.btn-dark {
+	
+	background: orangered;
+	border: 1px solid orangered;
+	color: #fff;
+	/*prueva*/
+	
+	
+}
+
+.btn-dark:hover {
+	background: rgb(193, 21, 21);
+	color: #fff;
+	
+	
+}
+
+/* Mainheader */
+#mainheader {
+	background: radial-gradient(at 10% 10px, #e9a075, #e9a075, #fff, #fff);
+	height: 100vh;
+	padding: 10px;
+
+}
+
+/* Navbar */
+#navbar {
+	color: #fff;
+	overflow: auto;
+	padding-top: 20px;
+
+}
+
+#navbar a {
+	color: #4d4d4d;
+}
+
+#navbar .logo {
+	float: left;
+	padding-top: 16px;
+	font-size: 25px;
+	
+}
+
+#navbar ul {
+	list-style: none;
+	float: right;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+#navbar ul li a:hover {
+	padding-bottom: 15px;
+	margin:auto;
+	color:orangered;
+	border-bottom: solid 4px orangered;
+	transition: all .3s ease-in;
+	
+}
+
+/* Showcase */
+#showcase {
+	padding: 80px;
+	
+
+}
+
+.showcase-row {
+	display: flex;
+	padding-top:0;
+	 
+}
+
+.showcase-row-img img{
+	width: 400px;
+	height: 550px;
+}
+
+
+
+
+.showcase-row-title p.large {
+	padding-bottom: 10px;
+}
+
+/* Portfolio */
+#portfolio {
+	padding-top: 0;
+	padding: 80px 0;
+	text-align: center;
+	background: radial-gradient(at 100% 10px, #e9a075, #e9a075, #fff, #fff);
+	border-radius: 20px;
+}
+
+#portfolio p {
+	width: 500px;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.portfolio-row {
+	display: flex;
+}
+
+.portfolio-row img {
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+/* About Me */
+#about{
+	padding: 80px 0;
+	text-align: center;
+	background: radial-gradient(at 10% 100px, #e9a075, #e9a075, #fff, #fff);
+	border-radius: 20px;
+}
+
+#about h2 {
+	padding-bottom: 30px;
+}
+
+#about p {
+	padding-bottom: 10px;
+}
+
+/* Contact */
+
+
+/*parrafo de contacto*/
+
+.contacth2{
+	color: #fff;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	}
+
+
+.contacto{
+	color: #ffff;
+}
+#contact{
+	padding: 70px 0;
+	text-align: center;
+	background: radial-gradient(at 10% 2px, #545fab, #334047 ,#c5a3a3,#d5c9c9);
+	border-radius: 20PX;
+}
+
+
+
+
+/*muy aparte*/
+
+
+main{
+	
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	justify-content: center;
+
+	
+}
+
+.icon{
+	margin-right: 50px;
+	position: relative;
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+	cursor: pointer;
+	border-radius: 50%;
+	transition: all .8;
+	
+}
+
+/*colores de Github Linkedin Y Twitter*/
+ .icon:hover{
+	background: #171515;
+	box-shadow: 0 0 40px #171515;
+ }
+
+ .icon:hover:nth-child(2){
+	background: #1877f2;
+	box-shadow: 0 0 40px #1877f2;
+ }
+
+ 
+ .icon:hover:nth-child(3){
+	background: #0e76a8;
+	box-shadow: 0 0 40px #0e76a8;
+ }
+
+  .icon i{
+	color: #fff;
+	position: absolute;
+	bottom: 50%;
+	left:50%;
+	transform: translate(-50%, 50%);
+	font-size: 1.7rem;
+	
+ }
+
+ svg circle{
+	stroke-dasharray: 150;
+	transition: all .8s ease-in-out;
+	
+
+}
+
+.icon:hover circle{
+	stroke-dasharray: 220;
+
+}
+
+
+
+/* Footer */
+#mainfooter {
+	text-align: center;
+	padding-top: 10px;
+	
+
+	
+
+}
+

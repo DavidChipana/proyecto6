@@ -1,0 +1,202 @@
+
+.display-1 {
+	font-size: 2.5em;
+    font-family: fantasy;
+	
+}
+
+
+
+/* Mainheader */
+#mainheader {
+	
+	height: 100%;
+
+}
+
+ /*esto es para poner*/
+
+#navbar .logo {
+	float: none;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 30px;
+    
+	
+	
+}
+
+
+#navbar ul li a {
+	padding: 15px;
+}
+
+	
+
+
+/* Showcase quisiera poner la imagen encima de la letra*/
+#showcase {
+	padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    
+}
+
+    .large{
+        font-size: 15px;
+    
+    
+}
+
+.showcase-row {
+	flex-wrap: wrap;
+    padding: 20px 0;
+	 
+}
+
+
+/*por dar detalle*/
+.showcase-row-img img{
+    position: relative;
+	width: 100%;
+	padding-top: 40px;
+}
+
+
+
+
+
+/* Portfolio */
+#portfolio {
+	padding-top: 30px;
+	padding-bottom: 40px;
+	
+	
+}
+
+#portfolio-row{
+    display: inline-block;
+    }
+    
+
+#portfolio p {
+	width: 100%;
+
+}
+
+
+
+/* About Me */
+#about{
+padding-top: 30px;
+padding-bottom: 40px;
+}
+
+#about h2 {
+	padding-bottom: 10px;
+}
+
+#about p {
+	padding-bottom: 5px;
+}
+
+/* Contact */
+
+
+/*parrafo de contacto*/
+
+.contacth2{
+	color: #fff;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	}
+
+
+.contacto{
+	color: #ffff;
+}
+#contact{
+padding-top: 30px;
+padding-bottom: 30px;
+padding-left: 15px;
+padding-right: 15px;
+text-align: center;
+}
+
+
+/*muy aparte*/
+
+
+main{
+	
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	justify-content: center;
+
+	
+}
+
+.icon{
+	margin-right: 50px;
+	position: relative;
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+	cursor: pointer;
+	border-radius: 50%;
+	transition: all .8;
+	
+}
+
+/*colores de Github Linkedin Y Twitter*/
+ .icon:hover{
+	background: #171515;
+	box-shadow: 0 0 40px #171515;
+ }
+
+ .icon:hover:nth-child(2){
+	background: #1877f2;
+	box-shadow: 0 0 40px #1877f2;
+ }
+
+ 
+ .icon:hover:nth-child(3){
+	background: #0e76a8;
+	box-shadow: 0 0 40px #0e76a8;
+ }
+
+  .icon i{
+	color: #fff;
+	position: absolute;
+	bottom: 50%;
+	left:50%;
+	transform: translate(-50%, 50%);
+	font-size: 1.7rem;
+	
+ }
+
+ svg circle{
+	stroke-dasharray: 150;
+	transition: all .8s ease-in-out;
+	
+
+}
+
+.icon:hover circle{
+	stroke-dasharray: 220;
+
+}
+
+
+
+/* Footer */
+#mainfooter {
+	text-align: center;
+	padding-top: 10px;
+
+
+}
+
